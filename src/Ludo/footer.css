@@ -1,0 +1,11 @@
+.turn{
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+.reset{
+    width: fit-content;
+    text-align: center;
+    font-style: italic;
+    margin-left: 420px;
+}
