@@ -10,7 +10,7 @@ class Footer extends Component {
         return (
             <div>
                 {
-                    this.props.status !== "" ? <h1>{this.props.status}</h1> : <div className="turn">Player {this.props.footerText}'s Turn</div>
+                    this.props.status !== "" ? <h1 className="won">{this.props.status}</h1> : <div className="turn">Player {this.props.footerText}'s Turn</div>
                 }
                 <button className="reset" onClick={this.props.reset}>Reset</button>
             </div>
