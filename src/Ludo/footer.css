@@ -2,6 +2,11 @@
     width: 100%;
     text-align: center;
     font-style: italic;
+    
+}
+.won{
+    margin-left: 400px;
+    margin-top: 20px;
 }
 .reset{
     width: fit-content;
